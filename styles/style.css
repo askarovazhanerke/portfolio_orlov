@@ -1,0 +1,317 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'IBM Plex Mono';
+    width: 100%;
+    min-width: 1400px;
+    background-color: #000000;
+}
+.container {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.developer {
+    position: relative;
+    padding-top: 31px;
+    height: 765px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url('../resources/bg_header.png');
+}
+header {
+    width: 1153px;
+    height: 55px;
+    margin-left: 123px;
+}
+.logo {
+    display: inline-block;
+    width: 130px;
+    height: 39px;
+    background: #000000;
+    border-radius: 100px;
+}
+.logo_title {
+    font-weight: 700;
+    font-size: 42.4138px;
+    line-height: 39px;
+    letter-spacing: -0.11em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1BFF07;
+}
+.nav_header {
+    float: right;
+}
+.nav_link {
+    margin-left: 42px;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav_link:hover {
+    color: #1BFF07;
+}
+.developer_descr {
+    position: absolute;
+    left: 125px;
+    bottom: 328px;
+    width: 430px;
+    height: 103px;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+h1 {
+    position: absolute;
+    left: 119px;
+    bottom: 94px;
+    width: 919px;
+    height: 205px;
+    font-size: 80px;
+    line-height: 70px;
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+}
+.latest_projects {
+    padding-top: 150px;
+}
+.latest_projects_title {
+    margin-left: 120px;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.projects {
+    margin-left: 125px;
+    margin-top: 38px;
+}
+.project1, .project2, .project3 {
+    position: relative;
+    width: 1150px;
+    height: 550px;
+    border-radius: 30px;
+}
+.project1 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url('../resources/realhome.png');
+}
+.project2 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url('../resources/glass.png');
+}
+.project3 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url('../resources/fesyien.png');
+}
+.project_title {
+    position: absolute;
+    left: 50px;
+    bottom: 94px;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.project_descr {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    margin-top: 5px;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.projects_link {
+    margin-top: 80px;
+    margin-left: 123px;
+    display: block;
+    width: 582px;
+    height: 153px;
+    background: #1BFF07;
+    border-radius: 10px;
+    font-size: 30px;
+    line-height: 153px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #000000;
+    cursor: pointer;
+}
+.projects_link:hover {
+    border: 1px solid #1BFF07;
+    background: #000000;
+    color: #1BFF07;
+}
+.my_competencies {
+    padding-top: 150px;
+    padding-left: 123px;
+}
+.my_competencies_title {
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.competence {
+    margin-top: 60px;
+} 
+.competence:first-child {
+    margin-top: 48px;
+}
+.competence_title1, .competence_title2, .competence_title3, .competence_title4 {
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+}
+.competence_title1::before {
+    content:'';
+    background-image: url('../resources/icon_html.png');
+    display: block;
+    margin-bottom: 12px;
+    margin-left: 2px;
+    width: 45px;
+    height: 44px;
+}
+.competence_title2::before {
+    content:'';
+    background-image: url('../resources/icon_js.png');
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 2px;
+    width: 45px;
+    height: 44px;
+}
+.competence_title3::before {
+    content:'';
+    background-image: url('../resources/icon_framework.png');
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 2px;
+    width: 45px;
+    height: 44px;
+}
+.competence_title4::before {
+    content:'';
+    background-image: url('../resources/icon_react.png');
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 2px;
+    width: 45px;
+    height: 44px;
+}
+.competence_descr {
+    margin-top: 16px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.layout {
+    padding-top: 150px;
+    padding-left: 125px;
+    padding-bottom: 150px;
+}
+.layout_title {
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.website_layout {
+    margin-top: 73px;
+}
+.website_layout:nth-last-child(1) {
+    margin-top: 134px;
+}
+.website_layout_img {
+    width: 1150px;
+    height: 200px;
+}
+.website_layout_wrap {
+    width: 1150px;
+    height: 283px;
+    padding-top: 38px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    background: #191C19;
+    border-radius: 30px;
+}
+.website_layout_title {
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+}
+.website_layout_descr {
+    margin-top: 15px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.social_media_bg {
+    position: relative;
+    width: 1400px;
+    height: 717px;
+    background: #191C19;
+    border-radius: 30px;
+}
+.communication {
+    position: absolute;
+    left: 125px;
+    top: 318px;
+    font-size: 35px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.inst, .telegram, .mail {
+    position: absolute;
+    left: 125px;
+    top: 405px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.telegram {
+    top: 486px;
+}
+.mail {
+    top: 565px;
+}
+.social_media_img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 30px;
+}
+footer {
+    margin-top: 147px;
+    padding-top: 75px;
+    padding-left: 125px;
+    height: 289px;
+    left: calc(50% - 1400px/2);
+    bottom: -66px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+.footer_descr {
+    font-family: 'Manrope';
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+.footer_rights{
+    font-family: 'Manrope';
+    margin-top: 67px;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #000000;
+    opacity: 0.5;
+}
